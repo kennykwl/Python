@@ -11,7 +11,7 @@ def get_last_boot_time(computer_name):
           formatted_time = boot_time.strftime('%Y-%m-%d %H:%M')
 
           print(f"Computer Name: {os.CSName}")
-          print(f"Last Boot Time: {formatted_time}"
+          print(f"Last Boot Time: {formatted_time}")
     except Exception as e:
           print(f"Failed to connect or retrieve data: {e}")
 
